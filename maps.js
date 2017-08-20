@@ -584,3 +584,4 @@ function makeStartCastleInside(reference) {
     output.push({ "macro": "Floor", "x": x + 40, "y": y + 24, "width": width });
   return output;
 }
+

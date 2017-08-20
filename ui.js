@@ -182,8 +182,8 @@ function setCheats() {
     Lulz: "game.lulz();",
     Random_Map: "game.setMapRandom();",
     Shroom: "game.playerShroom(game.player)",
-    Star_Power: "game.playerStar(game.player)",
-    Unlimited_Time: "game.StatsHolder.set(\"time\", Infinity);";
+    Star_Power: "game.playerStar(game.player);",
+    Unlimited_Time: "game.StatsHolder.set(\"time\", Infinity);"
   }
   cheatsize = 0;
   for(var i in cheats)

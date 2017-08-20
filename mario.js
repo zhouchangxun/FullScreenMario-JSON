@@ -3,7 +3,7 @@
 
 function FullScreenMario() {
   var time_start = Date.now();
-  
+  gameon = true;  
   // Thanks, Obama...
   ensureLocalStorage();
   
